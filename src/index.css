@@ -1,0 +1,4 @@
+/* Layer order lets Tailwind utilities override MUI styles (MUI emits into the `mui` layer). */
+@layer theme, base, mui, components, utilities;
+
+@import 'tailwindcss';

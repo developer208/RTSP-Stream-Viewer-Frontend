@@ -1,0 +1,10 @@
+node_modules
+dist
+# Local settings must not be baked into the image (.env.local points at localhost).
+.env
+.env.*
+!.env.example
+.git
+.gitignore
+Dockerfile
+*.md
