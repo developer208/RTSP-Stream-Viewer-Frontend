@@ -26,7 +26,7 @@ pipeline {
 
     environment {
         // Repository name on Docker Hub, without the username.
-        IMAGE_NAME = 'skylark-frontend'
+        IMAGE_NAME = 'rtsp-frontend'
         // Folder that nginx serves. The build is copied into it.
         SITE_DIR = '/var/www/rtsp-stream-viewer'
         // Each build gets its own tag so a bad release can be rolled back to the previous number.
